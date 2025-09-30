@@ -12,3 +12,8 @@ ng generate component my-component
 ng build --configuration production
 ```
 
+## Add the Angular element package.
+```sh
+ng add @angular/elements
+```
+
