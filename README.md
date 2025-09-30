@@ -17,3 +17,11 @@ ng build --configuration production
 ng add @angular/elements
 ```
 
+## Serve up the files locally. Use http-server to avoid CORS errors.
+```sh
+npm install -g http-server
+cd dist\my-app\browser
+http-server -p 4201
+```
+
+Browse to http://localhost:4201/index.html.
